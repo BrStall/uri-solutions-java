@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.IOException;
 
-public class main{
+public class URI1006{
       public static void main(String[] args){
 
       Scanner ler = new Scanner(System.in);
@@ -14,7 +14,8 @@ public class main{
 
       media = ((a * 2) + (b * 3) + (c * 5)) / 10;
 
-      System.out.printf("MEDIA = %.1f%n", media);
+      double media2 = media;
+	System.out.printf("MEDIA = %.1f%n", media2);
 
       }
 }
